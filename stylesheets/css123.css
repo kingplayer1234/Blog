@@ -1,0 +1,31 @@
+section{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+@keyframes animation{
+  0% {background-color: lightblue; left: 0px; top: 0px;}
+
+  25% {background-color: seagreen; left: 200px; top: 0px;}
+
+  50% {background-color: purple; left: 200px; top: 200px;}
+
+  
+  75% {background-color: orange; left: 0px; top: 200px;}
+
+  
+  100% {background-color: lightblue; left: 0px; top: 0px;}
+}
+ div {
+   width: 100px;
+   height: 100px;
+  animation-name: animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: relative;
+  font: 20px;
+}
+#{
+  grid-row-start: 
+}
